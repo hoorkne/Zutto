@@ -14,6 +14,7 @@ import { Reservations } from './pages/Reservations';
 import { About } from './pages/About';
 import { Gallery } from './pages/Gallery';
 import { Contact } from './pages/Contact';
+import { Admin } from './pages/Admin';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
             <Route path="/story" element={<About />} />
             <Route path="/experience" element={<Gallery />} />
             <Route path="/visit" element={<Contact />} />
+            <Route path="/admin" element={<Admin />} />
           </Routes>
         </main>
         <Footer />
